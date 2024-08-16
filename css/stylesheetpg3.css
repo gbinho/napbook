@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: none;
+    margin: 0;
+
+}
+
+.calculadorapage3 {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+}
+
+input {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 70%;
+    border-radius: 20px;
+    border: gray;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.resultados {
+    margin-top: 20px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top right, #d6ab5c, #18557A, #051824, #040E14, #040E14);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 20px;
+    padding: 5%;
+}
