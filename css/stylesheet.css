@@ -18,10 +18,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+
 
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    /* Oculta a barra de rolagem */
+}
 
 
 .MAIN-MAIN {
@@ -85,6 +89,7 @@ body {
     color: inherit;
 
 }
+
 .MAIN-MAIN h1 {
     padding: 2%;
 }
@@ -93,3 +98,19 @@ h2 {
     color: rgb(0, 0, 0);
 }
 
+@media (max-width: 600px) {
+
+    body {
+        font-size: 13.6px;
+    }
+
+    img {
+        height: 5vh;
+    }
+    .botao-branco a{
+        border-radius: 20px;
+    }
+    .botao-branco{
+        width: 60vw;
+    }
+}
